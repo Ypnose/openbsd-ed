@@ -6,6 +6,7 @@ Linux. It was only tested with musl libc[2].
 
 Built with:
 
+* gcc 6.3.0 + musl 1.1.15
 * gcc 6.2.1 + musl 1.1.15
 * gcc 5.4.0 + musl 1.1.15
 * gcc 4.9.2 + musl 1.1.15
