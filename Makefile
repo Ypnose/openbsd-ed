@@ -4,7 +4,6 @@ ED_OBJS = $(ED_SRCS:.c=.o)
 ED_COMP = compat/reallocarray.o compat/pledge.o
 
 CPPFLAGS += -include compat/compat.h
-CFLAGS   += -DBACKWARDS
 
 all: $(ED_BIN)
 
